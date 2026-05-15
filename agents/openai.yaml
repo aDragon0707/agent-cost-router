@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Cost Router"
+  short_description: "Route tasks to cheaper safe context."
+  default_prompt: "Use agent-cost-router to choose the cheapest safe route, context budget, and skill chain before solving this task."
