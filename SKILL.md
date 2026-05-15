@@ -60,6 +60,21 @@ Interaction contract:
 - Multi-file/tool/worker task -> use token-prompt-compiler to create Standard or Full Packet.
 - Finished meaningful work -> use audit-evolution Tiny Audit, not a long report.
 
+Optional surface check:
+
+```text
+DAILY = frequent, small, reused often -> keep rules hot and tiny
+LIBRARY = rare, heavy, reference-only -> load by path only when needed
+```
+
+Use DAILY/LIBRARY only to decide what stays in the active prompt. Do not turn it into an install plan or a new taxonomy.
+
+Scorecard nudge:
+
+- If two routes can pass, prefer the lower `cost_per_pass`, not the lowest raw cost.
+- If `cost_per_pass` is unknown and the route is repeatable, run a cheap probe or record a receipt before promoting it.
+- Do not add scorecards for one-off tasks where measurement would cost more than the decision.
+
 ## Context Policy
 
 ```text
